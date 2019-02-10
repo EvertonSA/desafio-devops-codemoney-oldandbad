@@ -14,7 +14,7 @@ namespace devops_test.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1teste", "value2" };
+            return new string[] { "value0", "value24" };
         }
 
         // GET api/values/5
